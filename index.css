@@ -7,6 +7,10 @@
     border:1px solid grey;
     text-align: center;
 }
+.body{
+    background-color: ;
+}
+
 .bold{
     font-weight: bold;
 }
@@ -22,8 +26,7 @@
 }
 
 .header{
-    /* text-align: center; */
-    /* display: inline-block; */
+    margin: 1% auto;
 
 }
 
@@ -31,31 +34,45 @@ div h1{
     font-family: 'Chelsea Market', cursive;
 }
 
+img{
+    height: 30vh;
+    width: 30vh;
+}
+
 .plan{
     background-color: #FF764E;
-    border-radius: 10px ;
+    /* border-radius: 10px ; */
     /* margin: 4 auto; */
-    width: 25%;
+    /* width: 15%;
     padding: 5px 1px;
-    display: inline-block;
+    display: inline-block; */
 }
 
 .learn{
     background-color: #5ED3EB;
-    border-radius: 10px ;
+    /* border-radius: 10px ; */
     /* margin: 4 auto; */
-    width: 25%;
+    /* width: 25%; */
     /* padding: 5px 1px; */
-    display: inline-block;
-    margin:0 3.7%;
+    /* display: inline-block;
+    margin:0 3.7%; */
 }
 
 .get{
     background-color: #FFCD69;
-    border-radius: 10px ;
+    /* border-radius: 10px ; */
     /* margin: 4 auto; */
     /* width: 25%; */
-    height: 50px;
+    /* height: 50px;
+    padding: 5px 1px; */
+    /* display: inline-block; */
+}
+
+.plan, .learn, .get{
+    border-radius: 10px ;
+    color: white;
+    margin: 10 25%;
+    width: 8.7%;
     padding: 5px 1px;
     display: inline-block;
 }
