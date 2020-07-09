@@ -1,20 +1,27 @@
 *{
-    box-sizing:border-box;
     font-family: 'Roboto Mono', monospace;
-    /* padding:0;
-    margin:0; */
     border:1px solid grey;
     text-align: center;
 }
 .body{
     background-color: #DDB9A3;
     color: white;
-    margin: 2%;
+    margin: 3% 8%;
 }
 
 .bold{
     font-weight: bold;
 }
+
+div h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3rem;
+}
+
+.footer{
+    background-color: #F9E7DC;
+}
+
 .footerYoshmite{
     background-image:url("/assets/footer_img.jpg");
     background-repeat: no-repeat;
@@ -23,13 +30,8 @@
     margin-top: 5%;
 }
 
-.footer{
-    background-color: #F9E7DC;
-}
-
-.icons p{
-    max-width: 20%;
-    margin: 0 auto;
+.get{
+    background-color: #FFCD69;
 }
 
 .header{
@@ -37,23 +39,14 @@
 
 }
 
-div h1{
-    font-family: 'Chelsea Market', cursive;
-    font-size: 3rem;
+.icons p{
+    max-width: 20%;
+    margin: 2% auto;
 }
 
 img{
     height: 5%;
     width: 5%;
-}
-
-/* fixed spacing*/
-nav{
-    padding: 1% 2%; 
-}
-
-.plan{
-    background-color: #FF764E;
 }
 
 .learn{
@@ -62,8 +55,12 @@ nav{
     margin-right: 20%;
 }
 
-.get{
-    background-color: #FFCD69;
+nav{
+    padding: 1% 2%; 
+}
+
+.plan{
+    background-color: #FF764E;
 }
 
 .plan, .learn, .get{
@@ -74,9 +71,16 @@ nav{
     display: inline-block;
 }
 
+.profile{
+    border-radius: 70%;
+    width: 64%;
+    height: 64%;
+    /* display: inline-block; */
+}
+
 .title{
     display: inline-block;
-    /* margin: auto 5%; */
+    margin: auto;
     width: 50%;
     max-width: 35%;
 }
@@ -84,11 +88,5 @@ nav{
 .yosemite{
     display: inline-block;
     width: 20%;
-}
-
-.profile{
-    border-radius: 70%;
-    width: 64%;
-    height: 64%;
-    /* display: inline-block; */
+    margin: auto
 }
