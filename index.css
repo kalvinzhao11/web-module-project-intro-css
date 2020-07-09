@@ -1,12 +1,13 @@
 *{
     font-family: 'Roboto Mono', monospace;
-    border:1px solid grey;
+    /* border:1px solid grey; */
     text-align: center;
 }
 .body{
     background-color: #DDB9A3;
     color: white;
     margin: 3% 8%;
+    padding: .3%;
 }
 
 .bold{
@@ -80,7 +81,7 @@ nav{
 
 .title{
     display: inline-block;
-    margin: auto;
+    margin: 0 5%;
     width: 50%;
     max-width: 35%;
 }
@@ -88,5 +89,5 @@ nav{
 .yosemite{
     display: inline-block;
     width: 20%;
-    margin: auto
+    margin: 5% 0;
 }
